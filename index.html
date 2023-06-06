@@ -1,0 +1,53 @@
+<!-- Exercice DEFI : Cours Initiation Javascript - Condition --> 
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js" defer></script>
+    <title>Formulaiire - Inscription</title>
+  </head>
+  <body>
+    <form id="register-form">
+      <h1>Inscription</h1>
+      <div class="input-group">
+        <input type="radio" id="female" name="civility">
+        <label for="female">Madame</label>
+
+        <input type="radio" id="male" name="civility">
+        <label for="male">Monsieur</label>
+      </div>
+
+      <div class="input-group">
+        <label for="name">Votre nom de famille</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div class="input-group">
+        <label for="category">Catégorie culinaire préférée</label>
+        <select name="category" id="category">
+          <option value="cold-starter" selected>Entrée froide</option>
+          <option value="soup">Soupe</option>
+          <option value="main-course">Plat</option>
+          <option value="fruit-dessert">Dessert (fruit)</option>
+          <option value="chocolate-dessert">Dessert (chocolat)</option>
+      </div>
+
+      <div class="input-group">
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">J'accepte de recevoir la newsletter</label>
+      </div>
+
+      <div class="input-action">
+        <button type="submit">Je m'inscris</button>
+      </div>
+
+    </form>
+    <!-- <script src="script.js" refer></script> -->
+  </body>
+</html>
+
+
+
